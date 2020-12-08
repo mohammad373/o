@@ -38,12 +38,14 @@ def __target__():
                 pass
         s = socket.gethostbyname(target)
         r = requests.get("https://who.is/whois-ip/ip-address/" + s).text
-        try:
-            print(Fore.GREEN + "Your Ip Target ==> " + s)
-            time.sleep(1)
-            print(Fore.GREEN + "Your City Target ==> " + r["City"])
-        except:
-            pass
+        #try:
+         #   print(Fore.GREEN + "Your Ip Target ==> " + s)
+          #  time.sleep(1)
+           # print(Fore.GREEN + "Your City Target ==> " + r["City"])
+        #except:
+         #
+          # pass
+        print(r)
     except:
         pass
 __target__()
