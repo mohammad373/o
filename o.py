@@ -6,7 +6,7 @@ import time
 import socket
 from colorama import Fore
 
-def __targert__():
+def __target__():
     os.system("clear")
     try:
         time.sleep(1.2)
