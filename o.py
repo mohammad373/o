@@ -25,7 +25,7 @@ def __ip__():
 
         s1 = socket.gethostname()
         s2 = socket.gethostbyname(s1)
-        print(Fore,BLUE + "[" + Fore.GREEN = "+"  + Fore.BLUE + "]" + Fore.YELLOW + " - " + Fore.GREEN + "Your Ip " + Fore.BLUE +"==>  " + Fore.YELLOW + s2 )
+        print(Fore.BLUE + "[" + Fore.GREEN + "+"  + Fore.BLUE + "]" + Fore.YELLOW + " - " + Fore.GREEN + "Your Ip " + Fore.BLUE + "==>  " + Fore.YELLOW + s2 )
         time.sleep(5)
     except:
         try:
