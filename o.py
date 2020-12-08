@@ -10,15 +10,15 @@ def __ip__():
         print(Fore.GREEN + "Helloe . Welcome ;)")
         time.sleep(2)
         try:
-            print(Fore.YELLOW + "\n[!] - Pleass 5 Sec Latter ...")
+            print(Fore.YELLOW + "[!] - Pleass 5 Sec Latter ...")
             time.sleep(1)
-            print(Fore.YELLOW + "\n[!] - Pleass 4 Sec Latter ...")
+            print(Fore.YELLOW + "[!] - Pleass 4 Sec Latter ...")
             time.sleep(1)
-            print(Fore.YELLOW + "\n[!] - Pleass 3 Sec Latter ...")
+            print(Fore.YELLOW + "[!] - Pleass 3 Sec Latter ...")
             time.sleep(1)
-            print(Fore.YELLOW + "\n[!] - Pleass 2 Sec Latter ...")
+            print(Fore.YELLOW + "[!] - Pleass 2 Sec Latter ...")
             time.sleep(1)
-            print(Fore.YELLOW + "\n[!] - Pleass 1 Sec Latter ...")
+            print(Fore.YELLOW + "[!] - Pleass 1 Sec Latter ...")
             time.sleep(1)
         except:
             pass
