@@ -18,7 +18,7 @@ def __ip__():
             time.sleep(1)
             print(Fore.BLUE + "[" + Fore.YELLOW + "!" + Fore.BLUE + "]" + Fore.GREEN  + "-" + Fore.YELLOW + "Pleass 2 Sec Latter ...")
             time.sleep(1)
-            print(Fore.BLUE + "[" + Fore.YELLOW + "!" + Fore.BLUE + "]" + Fore.GREEN  + "-" + Fore.YELLOW + "Pleass 1 Sec Latter ...")
+            print(Fore.BLUE + "[" + Fore.YELLOW + "!" + Fore.BLUE + "]" + Fore.GREEN  + "-" + Fore.YELLOW + "Pleass 1 Sec Latter ...\n")
             time.sleep(1)
         except:
             pass
