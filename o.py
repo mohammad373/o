@@ -40,9 +40,10 @@ def __targert__():
         r = requests.get("https://who.is/whois-ip/ip-address/" + s).text
         try:
             print(Fore.GREEN + "Your Ip Target ==> " + s)
-            print(Fore.GREEN + "Your City Target ==> " + r[City])
+            time.sleep(1)
+            print(Fore.GREEN + "Your City Target ==> " + r["City"])
         except:
             pass
     except:
         pass
-__targert__()
+__target__()
