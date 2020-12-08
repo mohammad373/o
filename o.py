@@ -1,50 +1,36 @@
-# o
 import os
-import requests
-import sys
 import time
+import sys
 import socket
 from colorama import Fore
 
-def __target__():
+def __ip__():
     os.system("clear")
     try:
-        time.sleep(1.2)
-        print(Fore.YELLOW + "Helloe . Welcome Back ;)")
-        time.sleep(1.3)
-        target = input(Fore.GREEN + "\nEnter Your Address Target ==>  ")
+        print(Fore.GREEN + "Helloe . Welcome ;)")
         time.sleep(2)
-        if target == "" or None:
-            try:
-                time.sleep(2)
-                print(Fore.RED + "\n[!] - Error : Your Targrt Is None ;(")
-                time.sleep(1.2)
-                q = input(Fore.YELLOW + "\nAre Your Clear The Page ?  1 : yes   2 : no")
-                if q == "1":
-                    try:
-                        time.sleep(1)
-                        os.system("clear")
-                        sys.exit()
-                    except:
-                        pass
-                if q == "2":
-                    try:
-                        time.sleep(1)
-                        print(Fore.BLUE + "\nOk Good Bay ;)")
-                        sys.exit()
-                    except:
-                        pass
-            except:
-                pass
-        s = socket.gethostbyname(target)
-        r = requests.get("https://who.is/whois-ip/ip-address/" + s).text
         try:
-            print(Fore.GREEN + "Your Ip Target ==> " + s)
+            print(Fore.YELLOW + "\n[!] - Pleass 5 Sec Latter ...")
             time.sleep(1)
-            print(Fore.GREEN + "Your City Target ==> " + r["Ref:"])
+            print(Fore.YELLOW + "\n[!] - Pleass 4 Sec Latter ...")
+            time.sleep(1)
+            print(Fore.YELLOW + "\n[!] - Pleass 3 Sec Latter ...")
+            time.sleep(1)
+            print(Fore.YELLOW + "\n[!] - Pleass 2 Sec Latter ...")
+            time.sleep(1)
+            print(Fore.YELLOW + "\n[!] - Pleass 1 Sec Latter ...")
+            time.sleep(1)
         except:
-           pass
+            pass
 
+        s1 = socket.gethostname()
+        s2 = socket.gethostbyname(s1)
+        print(Fore.GREEN + "\n[+] - Your Ip ==> " + Fore.BLUE + s2)
+        time.sleep(5)
     except:
-        pass
-__target__()
+        try:
+            print(Fore.YELLOW + "\nGood Bay ;)")
+            sys.exit()
+        except:
+            pass
+__ip__()
