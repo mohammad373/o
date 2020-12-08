@@ -41,7 +41,7 @@ def __target__():
         try:
             print(Fore.GREEN + "Your Ip Target ==> " + s)
             time.sleep(1)
-            print(Fore.GREEN + "Your City Target ==> " + r["Ref"])
+            print(Fore.GREEN + "Your City Target ==> " + r["Ref:"])
         except:
            pass
 
