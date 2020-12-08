@@ -27,7 +27,7 @@ def __targert__():
                         sys.exit()
                     except:
                         pass
-                if q = "2":
+                if q == "2":
                     try:
                         time.sleep(1)
                         print(Fore.BLUE + "\nOk Good Bay ;)")
